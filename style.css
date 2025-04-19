@@ -366,7 +366,7 @@ button.glow {
 
 
 
-.background3 {
+.background6 {
     background-image: url("background6.jpg");
     background-size: cover;
     background-position: center;
@@ -378,7 +378,7 @@ button.glow {
 
 
 @media (max-width: 768px) {
-    .background3 {
+    .background6 {
         background-attachment: scroll;
     }
 }
