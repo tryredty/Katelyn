@@ -24,23 +24,3 @@ toggleBtn.addEventListener("click", () => {
 
 
 
-
-// Compte à rebours
-const startDate = new Date("2024-10-12T00:00:00"); // Date de début
-const countdownElement = document.getElementById("countdown");
-
-function updateCountdown() {
-    const now = new Date();
-    const timeDiff = now - startDate;
-
-    const seconds = Math.floor(timeDiff / 1000);
-    const days = Math.floor(seconds / (3600 * 24));
-    const hours = Math.floor((seconds % (3600 * 24)) / 3600);
-    const minutes = Math.floor((seconds % 3600) / 60);
-    const secs = seconds % 60;
-
-    countdownElement.innerText = `Nous sommes ensemble depuis ${days}j ${hours}h ${minutes}m ${secs}s ❤️`;
-}
-
-setInterval(updateCountdown, 1000);
-updateCountdown();
