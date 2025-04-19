@@ -359,3 +359,23 @@ button.glow {
     color: #ff1493;
     font-family: sans-serif;
 }
+
+
+
+
+.background3 {
+    background-image: url("background3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; /* plus sûr par défaut */
+    min-height: 100vh;
+
+}
+
+
+@media (max-width: 768px) {
+    .background3 {
+        background-attachment: scroll;
+    }
+}
