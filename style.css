@@ -382,3 +382,11 @@ button.glow {
         background-attachment: scroll;
     }
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px; /* si tu veux de l'espace comme avant */
+}
+
